@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+   
+   let nameList = ["小a","小b","小c","小d","小e","小f","小g","小h","小i","小j","小k","小l","小m","小n","小o","小p","小q","小r","小s","小t","小u","小v","小w","小x","小y","小z"];
+   function getName(){
+       let random = Math.floor(Math.random() * nameList.length);
+       return nameList[random];
+   }
+   let name = getName();
+   console.log(name);
+   </script> 
+</body>
+</html>

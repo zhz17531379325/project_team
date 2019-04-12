@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <span>距2019-6-6还有</span>
+   <span class="day"></span>天
+   <span class="hours"></span>小时
+   <span class="minutes"></span>分
+   <span class="seconds"></span>秒
+   <script src="jquery.js"></script>
+   <script>
+   let target = new Date("2019-6-6").getTime();
+   setInterval(() =>{
+        let now = new Date().getTime();
+        let difference = target - now;
+        let allSeconds = Math.floor(difference/1000);
+        let allMinutes = Math.floor(allSeconds/60);
+        let seconds = allSeconds%60;
+        let allHours = Math.floor(allMinutes/60);
+        let minutes = allMinutes%60;
+        let day = Math.floor(allHours/24);
+        let hours = allHours%24;
+        $(".day").text(day);
+        $(".hours").text(hours);
+        $(".minutes").text(minutes);
+        $(".seconds").text(seconds);
+    },1000)
+   
+   
+   
+   
+   
+   </script> 
+</body>
+</html>

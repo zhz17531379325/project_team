@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/my.css">
+</head>
+{% block style %}
+{% endblock %}
+
+<body>
+    {% block content %}
+    <div class="headerbox">
+        <img class="headerimg3" src="/public/images/2.jpg" alt="">
+        <a href="/homepage"><img class="headerimg" src="/public/images/back.png" alt=""></a>
+        <span class="headerspan">{{span1}}</span>
+        <img class="headerimg2" src="/public/images/1.jpg">
+        <span class="headerspan1">{{span2}}</span>
+    </div>
+    <div class="AppContianerbox">
+
+        <div></div>
+
+        <ul class="AppContianerul">
+            <li class="AppContianerli1">
+                <span class="AppContianerspan1">{{num1}}</span>
+                <img class="AppContianerimg1" src="/public/images/back-2.png" alt="">
+            </li>
+            <li class="AppContianerli2">
+                <span class="AppContianerspan2">{{num2}}</span>
+                <img class="AppContianerimg1" src="/public/images/back-2.png" alt="">
+            </li>
+            <div class="AppContianerbox2"></div>
+            <li class="AppContianerli3">
+                <span class="AppContianerspan3">{{span3}}</span>
+                <img class="AppContianerimg2" src="/public/images/back-2.png" alt="">
+            </li>
+            <li class="AppContianerli4">
+                <span class="AppContianerspan4">{{span4}}</span>
+                <img class="AppContianerimg2" src="/public/images/back-2.png" alt="">
+            </li>
+        </ul>
+    </div>
+    <div class="AppContianerbox3"></div>
+    <div class="AppFooterbox">
+        <div class="AppFooterbox2">
+            <a href="/login"><span class="AppFooterspan">{{span5}}</span></a>
+
+        </div>
+        {% endblock %}
+
+        {% block js %}
+        <script src="/public/js/fontsizeset.js"></script>
+        {% endblock %}
+</body>
+
+</html>

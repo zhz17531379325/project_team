@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+    #app1 .header{
+        width: 7.5rem;
+        height: 0.88rem;
+        background-color: black;
+    }
+   .sp1{
+        color: white;
+        float: left;
+        width: 0.2rem;
+        height: 0.35em;
+        margin-left: 0.3rem;
+        margin-top: 0.27rem;
+    }
+    .sp2{
+        color: white;
+        float: left;
+        font-size: 0.32rem;
+        margin-left: 2.4rem;
+        margin-top: 0.2rem;
+    }
+    .container{
+        width: 7.5rem;
+        height: 11.08rem;
+    }
+    .container li{
+      list-style: none;
+      width: 7.5rem;
+      height: 1.41rem;
+    }
+    .img{
+        margin-left: 0.3rem;
+        margin-top: 0.28rem;
+        float: left ;
+        width: 0.9rem;
+        height: 0.9rem;
+        }
+    .bt{
+        font-size: 18px;
+        float: left;
+        margin-top: 0.2rem;
+        margin-left: 0.3rem;
+    }
+      .sj{
+        float: left;
+        font-size: 18px;
+        margin-top: 0.7rem;
+        margin-left: -2.5rem;
+        color:#d2d2d2;
+
+
+    }
+      .dz{
+        float: right;
+        font-size: 20px;
+        margin-top: -0.3rem;
+        margin-left: 3.4rem;
+        color:#d2d2d2;
+        margin-right: 0.3rem;
+    }
+    .sj2{
+      float: left;
+      font-size: 18px;
+      margin-top: 0.7rem;
+      margin-left: -3.28rem;
+      color:#d2d2d2;
+
+
+  }
+    .dz2{
+      float: right;
+      font-size: 20px;
+      margin-top: -0.3rem;
+      margin-left: 2.96rem;
+      color:#d2d2d2;
+      margin-right: 0.3rem;
+  }     
+   .sj3{
+    float: left;
+    font-size: 18px;
+    margin-top: 0.7rem;
+    margin-left: -1.45rem;
+    color:#d2d2d2;
+
+
+}
+  .dz3{
+    float: right;
+    font-size: 20px;
+    margin-top: 0.35rem;
+    margin-left: 3.35rem;
+    color:#d2d2d2;
+    margin-right: 0.3rem;
+}
+      .sj4{
+  float: left;
+  font-size: 18px;
+  margin-top: 0.7rem;
+  margin-left: -3.29rem;
+  color:#d2d2d2;
+
+
+}
+.dz4{
+  float: right;
+  font-size: 20px;
+  margin-top: -0.3rem;
+  margin-left: 3.6rem;
+  color:#d2d2d2;
+  margin-right: 0.3rem;
+}
+    li{
+      border-bottom: 1px solid #e8e8e8;
+    }
+    .footer{
+        width: 7.5rem;
+        height: 1.35rem;
+        border-top:  0.01rem solid #c9c9c9;
+        position: absolute;
+        top: 12rem;
+         
+     }
+     .bxx{
+         width: 1.8rem;
+         height: 1.35rem;
+         float: left;
+     }
+     .pic1{
+         width: 0.5rem;
+         height: 0.5rem;
+         float: left;
+         margin-left: 0.62rem;
+         margin-top: 0.16rem;
+     }
+     .scr1{
+         font-size: 0.2rem;
+         float: left;
+         margin-left: 0.5rem;
+         margin-top: 0.1rem;
+         color: #7f7f7f;
+     }
+      .kmjl{
+         width: 1.9rem;
+         height: 1.35rem;
+         float: left;
+     }
+     .pic2{
+         width: 0.5rem;
+         height: 0.5rem;
+         float: left;
+         margin-left: 0.7rem;
+         margin-top: 0.16rem;
+     }
+     .scr2{
+         font-size: 0.2rem;
+         float: left;
+         margin-left: 0.45rem;
+         margin-top: 0.1rem;
+         color: #7f7f7f;
+     }
+       .bjjl{
+         width: 1.9rem;
+         height: 1.35rem;
+         float: left;
+     }
+     .pic3{
+         width: 0.5rem;
+         height: 0.5rem;
+         float: left;
+         margin-left: 0.7rem;
+         margin-top: 0.16rem;
+     }
+     .scr3{
+         font-size: 0.2rem;
+         float: left;
+         margin-left: 0.45rem;
+         margin-top: 0.1rem;
+         color: #058df1;
+     }
+        .glyh{
+         width: 1.9rem;
+         height: 1.35rem;
+         float: left;
+     }
+     .pic4{
+         width: 0.5rem;
+         height: 0.5rem;
+         float: left;
+         margin-left: 0.65rem;
+         margin-top: 0.16rem;
+     }
+     .scr4{
+         font-size: 0.2rem;
+         float: left;
+         margin-left: 0.45rem;
+         margin-top: 0.1rem;
+         color: #7f7f7f;
+     }

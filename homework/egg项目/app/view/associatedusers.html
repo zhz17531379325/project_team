@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block style %}
+<link rel="stylesheet" href="/public/css/associatedusers.css">
+{% endblock%}
+
+{% block content %}
+<div class="box">
+        <a href="/homepage"><img class="img1" src="/public/images/back.png" alt=""></a>
+        <span class="span">{{span}}</span>
+        <img class="img2" src="/public/images/add.png" alt="">
+    </div>
+    <div class="box1">
+            <span class="span1">{{span1}}</span>
+            <img class="img3" src="/public/images/addx.png" alt="">
+          </div>
+          <div class="listdiv1">
+                <ul class="listul1">
+                    <li class="listli1">
+                        <div class="Headlist">
+                            <img class="listimg1" src="/public/images/tab_associated_pre - 副本.png">
+                            <span class="listspan1">{{num}}</span>
+                        </div>
+                    </li>
+                    <li class="listli1">
+                        <div class="Headlist">
+                            <img class="listimg1" src="/public/images/tab_associated_pre - 副本.png">
+                            <span class="listspan1">{{num}}</span>
+                        </div>
+                    </li>
+                    <li class="listli1">
+                        <div class="Headlist">
+                            <img class="listimg1" src="/public/images/tab_associated_pre - 副本.png">
+                            <span class="listspan1">{{num}}</span>
+                        </div>
+                    </li>
+                    <li class="listli1">
+                        <div class="Headlist">
+                            <img class="listimg1" src="/public/images/tab_associated_pre - 副本.png">
+                            <span class="listspan1">{{num}}</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+{% endblock %}
+
+{% block js %}
+<script src="/public/js/fontsizeset.js"></script>
+{% endblock %}

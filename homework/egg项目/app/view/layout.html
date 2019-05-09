@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+{% block style %}
+{% endblock %}
+
+<body>
+    <div id="app3">
+        <div class="footer">
+            <div class="bxx">
+                <a href="state"><img class="pic1" src="{{pic1}}" alt=""><span class="scr1">保险箱</span></a>
+                
+            </div>
+            <div class="kmjl">
+                <a href="/openingrecord"><img class="pic2" src="{{pic2}}" alt=""><span class="scr2">开门记录</span></a>
+                
+            </div>
+            <div class="bjjl">
+                <a href="/alarmrecord"><img class="pic3" src="{{pic3}}" alt=""><span class="scr3">报警记录</span></a>
+                
+            </div>
+            <div class="glyh">
+                <a href="/associatedusers"><img class="pic4" src="{{pic4}}" alt=""><span class="scr4">关联用户</span></a>
+                
+            </div>
+        </div>
+    </div>
+    {% block content %}
+    {% endblock %}
+    {% block js %}
+    {% endblock%}
+</body>
+
+</html>

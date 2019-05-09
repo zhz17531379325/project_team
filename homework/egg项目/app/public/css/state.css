@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 100%;
+    height: 100%;
+}
+ .header1{
+    background-image: url(/public/images/background.png);
+    background-size: 100%;
+    width: 7.50rem;
+    height: 7.56rem;
+}
+.box-top{
+    width: 7.50rem;
+    height: 0.88rem;
+    background-color: #0091fe;
+}
+.box-top .pic{
+    margin-left: 0.30rem;
+    margin-top: 0.30rem;
+    width: 0.2rem;
+    height: 0.36rem;
+    float: left;
+}
+.box-top .font{
+    font-size: 0.32rem;
+    color: white;
+    float: left;
+    margin-left: 2.40rem;
+    margin-top: 0.2rem;
+}
+.box-top .pic1{
+    float: right;
+    width: 0.46rem;
+    height: 0.1rem;
+    margin-top: 0.40rem;
+    margin-right: 0.31rem;
+    /* float: left; */
+}
+.header1 .word-box{
+    float: left;
+    width: 1.33rem;
+    height: 1.11rem;
+    margin-left: 3.2rem;
+    margin-top: 2.42rem;
+
+}
+.header1 .word11{
+    color: white;
+    font-size: 0.28rem;
+    float: left;
+    margin: 0;
+    padding: 0;
+
+}
+.header1 .word22{
+    color: white;
+    font-size: 0.6rem;
+    float: left;
+    margin:0;
+    padding: 0;
+}
+.header1 .list{
+    clear: both;
+    position: relative;
+    top: 3.09rem;
+    width: 7.50rem;
+    height: 0.88rem;
+    background-color: #0091fe;
+}
+.header1 .list .val1{
+    float: left;
+    width: 3.70rem;
+    height: 0.88rem;
+    list-style: none;
+    color: white;
+    font-size: 0.32rem;
+    line-height: 0.88rem;
+    text-align: center;
+    border: 1px solid #2fa9ff;
+}
+.header1 .list .val2{
+    float: right;
+    width: 3.70rem;
+    height: 0.88rem;
+    list-style: none;
+    color: white;
+    font-size: 0.32rem;
+    line-height: 0.88rem;
+    text-align: center;
+    border: 1px solid #2fa9ff;
+}
+
+
+#header{
+    width: 7.45rem;
+    height: 3.57rem;
+}
+#header .list .word1{
+    color: #c8c8c8;
+    float: left;
+    font-size: 0.36rem;
+    list-style: none;
+    margin-left: 0.30rem;
+    margin-top: 0.81rem;
+    color: #c2c2c2;
+}
+#header .list .word2{
+    float: right;
+    margin-right: 0.30rem;
+    margin-top: 0.81rem;
+    list-style: none;
+    font-size: 0.32rem;
+    color: #1690ff;
+}
+#header .imgList{
+    clear: both;
+    margin-left: 0.27rem;
+    
+}
+#header .imgList li{
+    float: left;
+    list-style: none;
+    margin-top: 0.30rem;
+}
+#header .imgList img{
+    width: 1.72rem;
+    height: 0.53rem;
+    margin-left: 0.01rem;
+    margin-right: 0.01rem;
+}
+#header .wordList li{
+    list-style: none;
+    float: left;
+    width: 1.72rem;
+    height: 0.53rem;
+}
+#header .wordList .font{
+    font-size: 0.26rem;   
+    clear: both;
+    margin-left: 0.92rem;
+    float: left;
+    color: #8c8c8c;
+}
+#header .wordList .font1{
+    font-size: 0.26rem;   
+    clear: both;
+    margin-left: 1.00rem;
+    float: left;
+    color: #8c8c8c;
+}
+
+
+.footer{
+    width: 7.5rem;
+    height: 1.35rem;
+    border-top: 1px solid #c9c9c9;
+    position: absolute;
+    top: 12rem;
+ }
+ .bxx{
+     width: 1.8rem;
+     height: 1.35rem;
+     float: left;
+ }
+ .pic1{
+     width: 0.5rem;
+     height: 0.5rem;
+     float: left;
+     margin-left: 0.62rem;
+     margin-top: 0.16rem;
+ }
+ .scr1{
+     font-size: 0.02rem;
+     float: left;
+     margin-left: 0.5rem;
+     margin-top: 0.1rem;
+     color: #058df1;
+ }
+  .kmjl{
+     width: 1.9rem;
+     height: 1.35rem;
+     float: left;
+ }
+ .pic2{
+     width: 0.5rem;
+     height: 0.5rem;
+     float: left;
+     margin-left: 0.7rem;
+     margin-top: 0.16rem;
+ }
+ .scr2{
+     font-size: 0.02rem;
+     float: left;
+     margin-left: 0.45rem;
+     margin-top: 0.1rem;
+     color: #7f7f7f;
+ }
+   .bjjl{
+     width: 1.9rem;
+     height: 1.35rem;
+     float: left;
+ }
+ .pic3{
+     width: 0.5rem;
+     height: 0.5rem;
+     float: left;
+     margin-left: 0.7rem;
+     margin-top: 0.16rem;
+ }
+ .scr3{
+     font-size: 0.02rem;
+     float: left;
+     margin-left: 0.45rem;
+     margin-top: 0.1rem;
+     color: #7f7f7f;
+ }
+    .glyh{
+     width: 1.9rem;
+     height: 1.35rem;
+     float: left;
+ }
+ .pic4{
+     width: 0.5rem;
+     height: 0.5rem;
+     float: left;
+     margin-left: 0.7rem;
+     margin-top: 0.16rem;
+ }
+ .scr4{
+     font-size: 0.02rem;
+     float: left;
+     margin-left: 0.45rem;
+     margin-top: 0.1rem;
+     color: #7f7f7f;
+ }

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/homepage.css">
+</head>
+{% block style %}
+{% endblock %}
+<body>
+        {% block content %}
+    <div id="app">
+        <div class="header">
+            <ul>
+                <li v-for="item in header">
+                    <!-- <router-link to="/MyStrongbox">
+                        <img class="pic" src="/public/images/tab_associated@2x.png" alt="">
+                    </router-link> -->
+                    <a href="/my"><img class="pic" src="/public/images/tab_associated@2x.png" alt=""></a>
+                    {{name}}
+                    <span class="bt11">{{bt1}}</span>
+                    <a href="/add"><img class="src" src="/public/images/add@2x.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="app">
+        <div class="banner">
+            <ul>
+                <li v-for="item in banner">
+                    <img class="picc" src="/public/images/guanggao@2x.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="app">
+        <div class="container">
+            <ul>
+                <li v-for="item in container">
+                    <img class="pic5" src="/public/images/safebox_icon@2x.png" alt="">
+                    {{name}}
+                    <span class="bt">{{bt}}</span>
+                    <span class="sj">{{sj}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="app">
+        <div class="footer">
+            <a href="/state"><span class="sp5">{{sp5}}</span></a>
+        </div>
+    </div>
+    {% endblock %}
+
+    {% block js %}
+    <script src="/public/js/fontsizeset.js"></script>
+    {% endblock %}
+</body>
+
+</html>

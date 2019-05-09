@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Header {
+    width: 7.5rem;
+    height: 0.88rem;
+    background-color: black;
+  }
+  #Header img {
+    float: left;
+    font-size: 0.43rem;
+    margin-top: 0.3rem;
+    margin-left: 0.22rem;
+    line-height: 0.88rem;
+    width: 0.23rem;
+    height: 0.35rem;
+  }
+  #Header .word_head {
+    float: left;
+    font-size: 0.32rem;
+    color: #ffffff;
+    line-height: 0.88rem;
+    margin-left: 2.5rem;
+  }
+  #Body {
+    width: 7.5rem;
+    height: 12.06rem;
+  }
+  #Body .Opendoor {
+    width: 6.9rem;
+    height: 11.08rem;
+    /* border-bottom: 1px solid #e8e8e8; */
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  #Body .Opendoor img {
+    width: 0.9rem;
+    height: 0.9rem;
+    float: left;
+    margin-top: 0.25rem;
+  }
+  #Body .Opendoor li {
+    width: 6.9rem;
+    height: 1.42rem;
+    border-bottom: 1px solid #e8e8e8;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  #Body .Opendoor .door {
+    font-size: 0.3rem;
+    float: left;
+    margin-top: 0.27rem;
+    margin-left: 0.24rem;
+  }
+  #Body .Opendoor .door .time {
+    color: #9c9c9c;
+    font-size: 0.24rem;
+  }
+  #Body .Opendoor .address {
+    color: #9d9d9d;
+    font-size: 0.3rem;
+    margin-left: 4.25rem;
+    float: left;
+    line-height: 1.42rem;
+  }
+  #Footer {
+    width: 7.5rem;
+    height: 0.98rem;
+  }
+  #Footer .box{
+     width: 2.42rem;
+     height: 0.98rem;
+  }
+  .footer {
+    width: 7.5rem;
+    height: 1.35rem;
+    border-top: 1px solid #c9c9c9;
+    position: absolute;
+    top: 12rem;
+}
+
+.bxx {
+    width: 1.8rem;
+    height: 1.35rem;
+    float: left;
+}
+
+.pic1 {
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    margin-left: 0.62rem;
+    margin-top: 0.16rem;
+}
+
+.scr1 {
+    font-size: 0.02rem;
+    float: left;
+    margin-left: 0.5rem;
+    margin-top: 0.1rem;
+    color: #7f7f7f;
+}
+
+.kmjl {
+    width: 1.9rem;
+    height: 1.35rem;
+    float: left;
+}
+
+.pic2 {
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    margin-left: 0.7rem;
+    margin-top: 0.16rem;
+}
+
+.scr2 {
+    font-size: 0.02rem;
+    float: left;
+    margin-left: 0.45rem;
+    margin-top: 0.1rem;
+    color: #058df1;
+}
+
+.bjjl {
+    width: 1.9rem;
+    height: 1.35rem;
+    float: left;
+}
+
+.pic3 {
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    margin-left: 0.7rem;
+    margin-top: 0.16rem;
+}
+
+.scr3 {
+    font-size: 0.02rem;
+    float: left;
+    margin-left: 0.45rem;
+    margin-top: 0.1rem;
+    color: #7f7f7f;
+}
+
+.glyh {
+    width: 1.9rem;
+    height: 1.35rem;
+    float: left;
+}
+
+.pic4 {
+    width: 0.5rem;
+    height: 0.5rem;
+    float: left;
+    margin-left: 0.7rem;
+    margin-top: 0.16rem;
+}
+
+.scr4 {
+    font-size: 0.02rem;
+    float: left;
+    margin-left: 0.45rem;
+    margin-top: 0.1rem;
+    color: #7f7f7f;
+}

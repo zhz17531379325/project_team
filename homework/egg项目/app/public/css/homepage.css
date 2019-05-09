@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .header {
+    width: 7.5rem;
+    height: 0.9rem;
+    background-color: black;
+  }
+  .pic{
+    width: 0.48rem;
+    height: 0.48rem;
+    float: left;
+    margin-left: 0.33rem;
+    margin-top: 0.20rem;
+  }
+  .src{
+    width: 0.39rem;
+    height: 0.39rem;
+    float: left;
+    color: white;
+      margin-left: 2.3rem;
+    margin-top: 0.3rem;
+  }
+  
+  .bt11{
+        font-size: 0.28rem;
+        color: white;
+        float: left;
+        margin-top: 0.3rem;
+        margin-left: 2.35rem;
+  
+      }
+      .banner{
+        width: 7.5rem;
+        height: 3.84rem;
+    
+    }
+    .picc{
+        width: 7.5rem;
+        height: 3.80rem;
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        width: 7.5rem;
+        height: 7.3rem;
+    }
+    .pic5{
+        width: 2.41rem;
+        height: 2.46rem;
+        float: left;
+        margin-left: 2.56rem;
+        margin-top: 1.46rem;
+    }
+    .bt{
+        font-size: 0.35rem;
+        float: left;
+        clear: both;
+        color: black;
+        margin-left: 2.74rem;
+        margin-top: 0.4rem;
+    }
+    .sj{
+        font-size: 0.28rem;
+        float: left;
+        clear: both;
+        color: #b9b9b9;
+        margin-left: 2.64rem;
+        margin-top: 0.2rem;
+    }
+    ul li{
+        list-style: none;
+    }
+    .footer{
+        width: 7.5rem;
+        height: 0.97rem;
+        background-color: #0092ff;
+        margin-top: 0.32rem;
+    }
+    .sp5{
+        color:white;
+        font-size: 0.3rem;
+        float: left;
+        margin-left: 3rem;
+        /* margin-top: 0.42rem; */
+        line-height: 0.97rem;
+    }

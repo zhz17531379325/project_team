@@ -1,0 +1,46 @@
+{% block style %}
+<link rel="stylesheet" href="/public/css/register.css">
+{% endblock %}
+
+{% block content %}
+<div id="tou">
+    <a href="login"><img src="/public/images/back.png" alt=""></a>
+    
+    <span class="span">{{word}}</span>
+</div>
+<div id="Body1">
+    <div class="Tell">
+      <label for>
+        <strong>手机</strong>
+      </label>
+      <form action>
+        <input type="number" placeholder="请输入手机号">
+      </form>
+    </div>
+    <div class="Captcha">
+      <label for>
+        <strong>验证码</strong>
+      </label>
+      <input type="text" placeholder="请输入验证码" class="i1">
+
+      <!-- <input v-if="!hasbtn" type="text" value="秒">
+      <input @click="content" type="button" value="获取验证码" class="btn">-->
+
+      <button class="btn" @click="countDown" :class="{disabled: !this.canClick}">{{content}}</button>
+    </div>
+    <div class="Password">
+      <label for>
+        <strong>密码</strong>
+      </label>
+      <form>
+        <input type="password" placeholder="请输入新密码">
+      </form>
+    </div>
+    <a class="a" href="/login"><div class="Register" @click="get">注册</div></a>
+  </div>
+  <span class="zhuce">{{zhuce}}<span class="yinsi">{{yinsi}}</span></span>
+{% endblock %}
+
+{% block js %}
+<script src="/public/js/fontsizeset.js"></script>
+{% endblock %}

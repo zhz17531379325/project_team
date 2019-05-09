@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.box{
+    width: 7.5rem;
+    height: 0.87rem;
+    background: black;
+}
+.img1{
+    margin-left: 0.3rem;
+    margin-top: 0.26rem;
+    float: left;
+    width: 0.2rem;
+    height:0.36rem;
+}
+.span{
+    color: white;
+    font-size: 0.32rem;
+    margin-top: 0.2rem;
+    margin-left: 2.4rem;
+    float: left;
+}
+.img2{
+    margin-left: 2.30rem;
+    margin-bottom: 0.38rem;
+    width: 0.39rem;
+    height: 0.39rem;
+}
+.box1{
+    width: 7.5rem;
+    height: 0.87rem;
+    border-bottom:1px solid #ebcf9f; 
+    background-color: #f7ebbb;
+}
+.span1{
+    font-size: 0.27rem;
+    margin-top: 0.29rem;
+    margin-left: 0.29rem;
+    float: left;
+}
+.img3{
+    margin-left: 2.13rem;
+    margin-bottom:0.38rem;
+    width: 0.39rem;
+    height: 0.39rem;
+}
+.listdiv1{
+    width: 7.5rem;
+    height: 10.2rem;
+    }
+    .listul1{
+    float: left;
+    padding-left: 0rem;
+    }
+    .listli1{
+        list-style: none;
+        float: left;
+        width: 7.2rem;
+        height: 1.42rem;
+        border-bottom: 0.01rem solid #e7e7e7;
+        margin-left: 0.3rem;
+    }
+    .Headlist{
+        width: 0.9rem;
+        height: 0.9rem;
+        background: #9981ef;
+        float: left;
+        margin-top: 0.27rem;
+    }
+    .listimg1{
+        width: 0.49rem;
+        height: 0.44rem;
+        float: left;
+        margin-left: 0.18rem;
+        margin-top: 0.19rem;
+    }
+    .listspan1{
+        font-size: 0.25rem;
+        margin-left: 1.16rem;
+        margin-top: -0.35rem;
+        float: left;
+    }
+    .footer{
+        width: 7.5rem;
+        height: 1.35rem;
+        border-top:  0.01rem solid #c9c9c9;
+        position: absolute;
+        top: 12rem;
+         
+     }
+     .bxx{
+         width: 1.8rem;
+         height: 1.35rem;
+         float: left;
+     }
+     .pic1{
+         width: 0.5rem;
+         height: 0.5rem;
+         float: left;
+         margin-left: 0.62rem;
+         margin-top: 0.16rem;
+     }
+     .scr1{
+         font-size: 0.2rem;
+         float: left;
+         margin-left: 0.5rem;
+         margin-top: 0.1rem;
+         color: #7f7f7f;
+     }
+      .kmjl{
+         width: 1.9rem;
+         height: 1.35rem;
+         float: left;
+     }
+     .pic2{
+         width: 0.5rem;
+         height: 0.5rem;
+         float: left;
+         margin-left: 0.7rem;
+         margin-top: 0.16rem;
+     }
+     .scr2{
+         font-size: 0.2rem;
+         float: left;
+         margin-left: 0.45rem;
+         margin-top: 0.1rem;
+         color: #7f7f7f;
+     }
+       .bjjl{
+         width: 1.9rem;
+         height: 1.35rem;
+         float: left;
+     }
+     .pic3{
+         width: 0.5rem;
+         height: 0.5rem;
+         float: left;
+         margin-left: 0.7rem;
+         margin-top: 0.16rem;
+     }
+     .scr3{
+         font-size: 0.2rem;
+         float: left;
+         margin-left: 0.45rem;
+         margin-top: 0.1rem;
+         color: #7f7f7f;
+     }
+        .glyh{
+         width: 1.9rem;
+         height: 1.35rem;
+         float: left;
+     }
+     .pic4{
+         width: 0.5rem;
+         height: 0.5rem;
+         float: left;
+         margin-left: 0.65rem;
+         margin-top: 0.16rem;
+     }
+     .scr4{
+         font-size: 0.2rem;
+         float: left;
+         margin-left: 0.45rem;
+         margin-top: 0.1rem;
+         color: #058df1;
+     }

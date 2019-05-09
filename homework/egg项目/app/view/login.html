@@ -1,0 +1,35 @@
+{% block style %}
+<link rel="stylesheet" href="/public/css/login.css">
+{% endblock %}
+
+{% block content %}
+<div class="box">
+    <div id="Header">
+        <img src="/public/images/applogo.png" alt>
+    </div>
+    <div id="Body">
+        <div class="Name">
+            <label for>{{name}}</label>
+            <input type="text" placeholder="请输入用户名">
+        </div>
+        <div class="Pass">
+            <label for="">{{pass}}</label>
+            <input type="password" placeholder="请输入密码">
+        </div>
+    </div>
+    <div class="box2">
+
+    </div>
+    <div id="Footer">
+        <a class="a" href="/add"><div class="Register"><span class="word">{{word}}</span></div></a>
+        <div class="zhuce">
+                <a href="/register" class="register2">{{register}}</a>
+                <a href="/password" class="pass">{{pass2}}</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block js %}
+<script src="/public/js/fontsizeset.js"></script>
+{% endblock %}

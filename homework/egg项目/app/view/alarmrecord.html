@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+{% block style %}
+<link rel="stylesheet" href="/public/css/alarmrecord.css">
+{% endblock %}
+
+    {% block content %}
+    <div id="app1">
+        <div class="header">
+            <a href="/homepage"><img  class="sp1"src="/public/images/back.png" alt=""></a>
+            <span class="sp2">{{sp2}}</span>
+        </div>
+    </div>
+    <div id="app2">
+        <div class="container">
+            <ul>
+                <li>
+                    <img class="img" src="/public/images/move@2x.png" alt="">
+                    <span class="bt">{{bt1}}</span>
+                    <span class="sj">{{sj1}}</span>
+                    <span class="dz">{{dz1}}</span>
+                </li>
+                <li>
+                        <img class="img" src="/public/images/electricity@2x.png" alt="">
+                        <span class="bt">{{bt2}}</span>
+                        <span class="sj2">{{sj2}}</span>
+                        <span class="dz2">{{dz2}}</span>
+                </li>
+                <li>
+                        <img class="img" src="/public/images/modify@2x.png" alt="">
+                        <span class="bt">{{bt3}}</span>
+                        <span class="sj3">{{sj3}}</span>
+                        <span class="dz3">{{dz3}}</span>
+                </li>
+                <li>
+                        <img class="img" src="/public/images/electricity@2x.png" alt="">
+                        <span class="bt">{{bt4}}</span>
+                        <span class="sj4">{{sj4}}</span>
+                        <span class="dz4">{{dz4}}</span>
+                </li>
+                <li>
+                        <img class="img" src="/public/images/move@2x.png" alt="">
+                        <span class="bt">{{bt5}}</span>
+                        <span class="sj">{{sj5}}</span>
+                        <span class="dz">{{dz5}}</span>
+                </li>
+                <li>
+                        <img class="img" src="/public/images/move@2x.png" alt="">
+                        <span class="bt">{{bt6}}</span>
+                        <span class="sj">{{sj6}}</span>
+                        <span class="dz">{{dz6}}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="app3">
+    </div>
+    {% endblock %}
+
+    {% block js %}
+    <script src="/public/js/fontsizeset.js"></script>
+    {% endblock %}
